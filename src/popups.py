@@ -28,6 +28,7 @@ def get_user_input(parent, title, prompt, default):
 
 
 def get_directory(parent, prompt):
+    """Get a directory input from the user."""
     default = ff.root_dir()
     selected_dir = QFileDialog.getExistingDirectory(parent, prompt, default)
     if selected_dir == "":

@@ -1,3 +1,6 @@
 {
-    "name": "default project"
+    "name": "default project",
+    "progress": 0,
+    "data_group": "",
+    "data_group_name": ""
 }
